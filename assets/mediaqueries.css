@@ -1,0 +1,137 @@
+.back-to-top{
+	display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+.back-to-top{
+  position: fixed;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  background-color: var(--pink);
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: var(--white);
+  text-decoration: none;
+  box-shadow: 0rem 0rem 0.625rem 0rem var(--pink);
+}
+
+/* Navbar */
+nav#navbar{
+	width: 100%;
+	padding-top: 40%;
+	padding-bottom: 50%;
+	margin: 0 auto;
+	background-color: var(--black);
+	height: 100vh;
+	position: unset;
+	text-align: center;
+}
+
+nav#navbar ul{
+	margin-left: 0;
+	flex-direction: column;
+}
+
+nav#navbar a{
+	padding-right: 0px;
+}
+
+.wrapper{
+	padding: 0px 24px 0px 24px;
+}
+
+/* Welcome page */
+#welcome-page{
+	min-height: 100%;
+}
+
+.container-welcome{
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 0px;
+}
+
+.welcome-text p{
+	width: 100%;
+  	padding-bottom: 40px;
+}
+
+.welcome-img{
+	display: flex;
+	justify-content: center;
+	padding-top: 0px;
+}
+
+.welcome-img img{
+	width: 30%;
+	height: auto;
+	transition: all 300ms ease-in-out;
+}
+
+/* .welcome-img img:hover{
+  margin-top: 0px;
+  width: 30%;
+	transform: none;
+} */
+
+/* Projects page */
+.project-tile a img {
+  width:100%;
+  height: 300px;
+}
+
+.sub-icons a img{
+	width: auto;
+	height: 32px;
+}
+
+.sub-icons img:hover{
+	transform: translate(-3%, 3%) scale(1.2);
+}
+
+.tile-sub{
+	height: 150px;
+}
+
+/* Footer */
+footer{
+	background-color: var(--black);
+}
+
+footer p{
+	margin: 0;
+}
+
+/* Contact */
+/* .container-contact{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+.contact-info{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 1.5625rem;
+}
+
+.contact-img img{
+	width: 100%;
+}
+
+.social-network{
+	margin: 0.625rem;
+}
+
+.contact-form{
+	width: 100%;
+	margin: 0.625rem 0rem 0.625rem 0rem;
+} */
+
+}
